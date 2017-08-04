@@ -1,0 +1,36 @@
+{
+  "name": "stork",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "material-ui": "^0.18.6",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-bootstrap": "^0.31.1",
+    "react-dom": "^15.6.1",
+    "react-motion": "^0.5.0",
+    "react-radio-group": "^3.0.2",
+    "react-rotation": "^1.2.0",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-side-bar": "^0.3.5",
+    "react-sidemenu": "0.0.10",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-transition-group": "^1.2.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "jsx-loader": "^0.13.2",
+    "less-loader": "^4.0.4",
+    "react-scripts": "1.0.7",
+    "style-loader": "^0.18.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001"
+}
