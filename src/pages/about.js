@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Typist from 'react-typist';
-import Delay from "react-delay";
-import './home.css';
-import willis from "../img/willis.jpg";
-import willis2 from '../img/willis2.JPG';
+
+import './about.css';
+
 
 const styles = {
     // justifyContent: "center",
@@ -17,11 +16,11 @@ const img ={
 };
 
 
-class Home extends Component {
+class About extends Component {
     constructor(props){
         super(props);
-    this.state ={
-        renderMsg:false
+        this.state ={
+            renderMsg:false
 
         }
     }
@@ -46,31 +45,26 @@ class Home extends Component {
     render() {
 
         return (
-            <div style={styles} className="Typist">
+            <div style={styles} className="AboutTypist">
                 <Typist
-                    className="Typist-header"
+                    className="AboutTypist-header"
                     avgTypingSpeed={25}
                     startDelay={2000}
                     onTypingDone={this.onHeaderTyped}
                 >
-                    <a>Welcome                      </a>
+                    <a>I am looking embark on a new career path and contribute my skills to a dynamic, fast-paced team.
+                        My sincere enthusiasm for backend development coupled with solid problem-solving skills, demonstrated creativity,
+                        proven collaboration capabilities, and ability to work with a wide variety of personality
+                        types at all levels would make me an ideal candidate for a developer role with a start-up or well-established company.</a>
                 </Typist>
-                <Delay
-                    wait={3500}
-                >
-                <img style={img} src={willis2} />
-                </Delay>
-
-                <div className="Typist-content">
+                <div className="AboutTypist-content">
                     {this.state.renderMsg ? (
                         <Typist
-                            className="Typist-message"
+                            className="AboutTypist-message"
                             delayGenerator={this.delayGen}
                             cursor={{ hideWhenDone: true }}
                         >
-                            My name is Willis Dorden
-                            <br />
-                            I am a full stack Developer
+
                             <br />
                             {''}
                         </Typist>
@@ -82,4 +76,4 @@ class Home extends Component {
 
 }
 
-export default Home;
+export default About;
