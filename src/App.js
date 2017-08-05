@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Link,} from 'react-router-dom';
-import './App.css';
+import './App.scss';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import Sidebar from './sidemenu/sidemenu';
 import SidebarContent from './sidemenu/sidemenuContent';
 import MaterialTitlePanel from './sidemenu/sidemenu material';
+import Home from './pages/home';
 
-
-import './App.css';
+ import './App.scss';
 injectTapEventPlugin();
 const styles = {
     contentHeaderMenuLink: {
@@ -16,7 +16,7 @@ const styles = {
         padding: 8,
     },
     content: {
-        // padding: '16px',
+        padding: '',
         backgroundColor: "white",
         height:"100%"
     },
@@ -84,7 +84,7 @@ class App extends Component {
                 <MaterialTitlePanel title={contentHeader}>
                   <div style={styles.content}>
 
-                    {/*<Route exact path ="/" component={Home} />*/}
+                    <Route exact path ="/" component={Home} />
                     {/*<Route   path ="/about" component={About} />*/}
 
 
