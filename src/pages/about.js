@@ -48,12 +48,12 @@ class About extends Component {
             <div style={styles} className="AboutTypist">
                 <Typist
                     className="AboutTypist-header"
-                    avgTypingSpeed={25}
+                    avgTypingSpeed={45}
                     startDelay={2000}
                     onTypingDone={this.onHeaderTyped}
                 >
-                    <a>I am looking embark on a new career path and contribute my skills to a dynamic, fast-paced team.
-                        My sincere enthusiasm for backend development coupled with solid problem-solving skills, demonstrated creativity,
+                    <a>I am looking to embark on a new career path and contribute my skills to a dynamic, fast-paced team.
+                        My sincere enthusiasm for frontend and backend development coupled with solid problem-solving skills, demonstrated creativity,
                         proven collaboration capabilities, and ability to work with a wide variety of personality
                         types at all levels would make me an ideal candidate for a developer role with a start-up or well-established company.</a>
                 </Typist>

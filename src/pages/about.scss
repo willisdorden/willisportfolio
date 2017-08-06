@@ -5,14 +5,11 @@ $bl-color: #22BAD9;
 
 .AboutTypist {
   font-family: monospace;
-  font-size: 18px;
+  font-size: 10px;
   line-height: 1.7;
   //background-color: black;
   padding: 25px 50px;
   text-align: center;
-
-
-
 
   a {
     color: inherit;
@@ -26,6 +23,7 @@ $bl-color: #22BAD9;
     margin-top: 5%;
     margin-bottom: 3%;
     text-align: center;
+    font-size: 3em;
     cursor: pointer;
     color: $bl-color;
 

@@ -49,6 +49,7 @@ const SidebarContent = (props) => {
                 <ul style={styles.sidebarUl}>
                 <NavLink to="/" style={styles.sidebarLink}>Home</NavLink>
                 <li><Link to="/about" style={styles.sidebarLink}>About</Link></li>
+                    <li><Link to="/skills" style={styles.sidebarLink}>Skills</Link></li>
                 </ul>
                 <div style={styles.divider} />
                 {/*{links}*/}
