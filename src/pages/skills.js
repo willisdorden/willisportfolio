@@ -5,7 +5,7 @@ import bootstrap from '../img/bootstrap.png';
 import coding from '../img/coding.jpg';
 import css from '../img/css.jpg';
 import firebase from '../img/firebase.jpg';
-import html from '../img/html.jpg';
+import react from '../img/react.png';
 import javascript from '../img/javascript.png';
 import monogodb from '../img/mongodb.png';
 import mysql from '../img/mysql.png';
@@ -55,9 +55,10 @@ const Firebase ={
     backgroundImage:`url(${firebase})`,
 
 };
-const HTML ={
-    backgroundImage:`url(${html})`,
-
+const Reacts ={
+    backgroundImage:`url(${react})`,
+    height:50,
+    width:50
 };
 const Javascript ={
     backgroundImage:`url(${javascript})`,
@@ -152,9 +153,9 @@ class Skills extends Component {
                             <div className="skills">
                                 <h3 className="main text-center">WEB DESIGN</h3>
                                 <div className="restitem clearfix">
-                                    <div className="rm-thumb" style={HTML}>
+                                    <div className="rm-thumb" style={Reacts}>
                                     </div>
-                                    <h5>HTML</h5>
+                                    <h5>React</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum.
                                         Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
                                     </p>

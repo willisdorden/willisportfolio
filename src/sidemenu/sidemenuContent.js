@@ -50,6 +50,9 @@ const SidebarContent = (props) => {
                 <NavLink to="/" style={styles.sidebarLink}>Home</NavLink>
                 <li><Link to="/about" style={styles.sidebarLink}>About</Link></li>
                     <li><Link to="/skills" style={styles.sidebarLink}>Skills</Link></li>
+                    <li><Link to="/projects" style={styles.sidebarLink}>Projects</Link></li>
+                    <li><Link to="/contact" style={styles.sidebarLink}>Contact</Link></li>
+
                 </ul>
                 <div style={styles.divider} />
                 {/*{links}*/}

@@ -58,7 +58,7 @@ class Home extends Component {
                 <Delay
                     wait={3500}
                 >
-                <img style={img} src={willis2} />
+                <img style={img} src={willis} />
                 </Delay>
 
                 <div className="Typist-content">

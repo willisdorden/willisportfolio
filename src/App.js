@@ -7,7 +7,8 @@ import SidebarContent from './sidemenu/sidemenuContent';
 import MaterialTitlePanel from './sidemenu/sidemenu material';
 import Home from './pages/home';
 import About from './pages/about';
-import Skills from './pages/skills';
+import Skills from './pages/skills.js';
+import Contact from './pages/contact.js';
  import './App.scss';
 injectTapEventPlugin();
 const styles = {
@@ -84,13 +85,10 @@ class App extends Component {
               <Sidebar {...sidebarProps} >
                 <MaterialTitlePanel title={contentHeader}>
                   <div style={styles.content}>
-
-                    <Route exact path ="/" component={Home} />
-                    <Route   path ="/about" component={About} />
+                      <Route exact path ="/" component={Home} />
+                      <Route   path ="/about" component={About} />
                       <Route   path ="/skills" component={Skills} />
-
-
-
+                      <Route   path ="/contact" component={Contact} />
                   </div>
                 </MaterialTitlePanel>
               </Sidebar>
