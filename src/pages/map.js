@@ -54,7 +54,8 @@ export class Map extends React.Component {
 
         // invariant(
         //     props.hasOwnProperty('google'),
-        //     'You must include a `google` prop.'
+            'You must include a `google` prop.'
+
         // );
 
         this.listeners = {};

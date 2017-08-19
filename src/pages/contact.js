@@ -37,7 +37,7 @@ class Contact extends Component {
                     <Row>
                         <Col md={7}>
                             <div className="map"  ref='map'>
-                                <Map/>
+                                <Map google={this.props.google}/>
                             </div>
                         </Col>>
 
